@@ -1,0 +1,30 @@
+$(document).ready(function(){
+	$('#principal_tec_atv_btn').popover();
+});
+$(document).ready(function(){
+	$('#possui_tec_btn').popover();
+});
+$(document).ready(function(){
+	$('#possui_certificados_btn').popover();
+});
+$(document).ready(function(){
+	$('#restricao_local_btn').popover();
+});
+$(document).ready(function(){
+	$('#idade_filhos_btn').popover();
+});
+$(document).ready(function(){
+	$('#interesse_aprender_tec_btn').popover();
+});
+$(document).ready(function(){
+	$('#interesse_ensinar_tec_btn').popover();
+});
+$(document).ready(function(){
+	$('#beneficios_btn').popover();
+});
+$(document).ready(function(){
+	$('#interesse_outra_area_btn').popover();
+});
+$(document).ready(function(){
+	$('#atividades_btn').popover();
+});

@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+.label {
+  background-color: #555;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  display: inline-block;
+  padding: 4px 6px;
+  color: #555;
+  vertical-align: middle;
+  border-radius: 4px;
+  max-width: 100%;
+  line-height: 22px;
+  cursor: text;
+}
+.bootstrap-tagsinput input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0 6px;
+  margin: 0;
+  max-width: inherit;
+  height: auto;
+}
+.bootstrap-tagsinput{
+	width: 87%;
+	height: auto;
+}
+
+.bootstrap-tagsinput div[id="possuiCertificado"]{
+	width: 60%;
+	height: auto;
+}
+
+
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+  content: "x";
+  padding: 0px 2px;
+   color: red;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  color: red;
+}
+.selectpicker{
+	width: 100%;
+}
+@keyframes gira {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.horario{
+   animation: gira 6s linear infinite;   
+}
+.card-header{
+	height: 100%;
+}
+.possuiC{
+	display: inline;
+}
+.possuiCerti{
+	display: inline;
+}
+.restricaoDiv2{
+	display: inline;
+}
+.button.btn.dropdown-toggle.btn-light.bs-placeholder{
+	padding: 6px 12px;
+}
+
+.btn.dropdown-toggle.btn-light.bs-placeholder{
+	background-color: #e9ecef;
+	color: #212529;
+}
+
+div.dropdown.bootstrap-select.show-tick.col-md-12{
+	padding: 0px 0px;
+}
+
+.btn.btn-light.dropdown-toggle.col-md-12{
+	background-color: #e9ecef;
+}
+
+.navbar{
+	background-color: #222;
+}
+
+.logoimg{
+	width: 163px;
+}
+
+div.card-header{
+	background-color: #222;
+}
+
+form#needs-validation.container.theme-showcase{
+	margin-top: 1%;
+}
+
+.atividades{
+	display: inline;
+}
+.teste2{
+	display: inline;
+}
+#tecnologia_input{
+	width: 87%;
+}
+.idioma_normal{
+	width: 87%;
+}
+.enviar_div{
+	display: inline;
+}
+button#enviar.btn.btn-default.btn-block.enviar{
+	background-color: #2E31EA;
+	color: white;
+	border-radius: 2em;
+}
+button#enviar.btn.btn-success.btn-block.enviar{
+	border-radius: 2em;
+}
+
+a#limpar.btn.btn-outline-primary.btn-block.limpar{
+	border-radius: 2em;
+}
